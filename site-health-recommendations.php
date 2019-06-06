@@ -16,8 +16,9 @@ namespace Site_Health_Recommendation;
 
 /**
  * Add additional modules that we'd like to recommend to Site Health.
- * @param $modules
- * @return array
+ *
+ * @param  $modules array The modules that are recommended in WordPress Core.
+ * @return array The WordPress core modules and out recommended modules.
  */
 function add_recommendations( $modules ) {
 	$recommendations =[
